@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>元のページ</title>
+    </head>
+
+    <body>
+        <h1>移動前のページよ</h1>
+        <a href="/routing">さぁ、クリックして違うページへ行くか確認！</a>
+        <hr>
+        <h2>ターミナルへ文字を送る！</h2>
+            <form action="/" method="GET">
+                <input name = "data">
+                <button type="submit"> ターミナルに文字を送る！</button>
+            </form>
+        <hr>
+        <h2>GET通信で文字送る！</h2>
+            <form action="/get" method="GET">
+                <input name = "getDATA">
+                <button type="submit"> getページへ送る！</button>
+            </form>
+        <hr>
+        <h2>POST通信で文字送る！</h2>
+            <form action="/post" method="POST">
+                <input name = "postDATA">
+                <button type="submit"> postページへ送る！</button>
+            </form>
+
+    </body>
+</html>

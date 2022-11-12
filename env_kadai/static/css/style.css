@@ -1,0 +1,14 @@
+.hello{
+    background: orange;
+}
+
+h1 {
+    color: #364e96;
+    border: solid 3px #a6d3c8;
+    border-radius: 0.5em;
+    padding: 0.5em;
+  }
+
+li{
+    color:red;
+}
